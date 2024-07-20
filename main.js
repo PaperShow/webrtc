@@ -38,4 +38,4 @@ wss.on('connection', (ws) => {
     console.log(`Client ${ws.id} connected`);
 });
 
-// console.log('WebSocket server is running on ws://localhost:8080');
+console.log('WebSocket server is running on ws://localhost:8080');
