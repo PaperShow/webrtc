@@ -11,7 +11,9 @@ wss.on('connection', (ws)=>{
                 ws.send('Failed to save file');
             } else {
                 console.log('File saved successfully');
-                ws.send('File received and saved');
+                console.log(message);
+                ws.send(message)
+                // ws.send('File received and saved');
             }
         })
     })
